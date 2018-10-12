@@ -1,48 +1,32 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+   margin: 0;
+   padding: 0;
 }
+/* this sets the margin and padding to zero, making it so the divs are in the top left. */
+
 div {
-  float: left;
-  border-radius: 10px;
+float:left;
 }
-#container {
-  width: 95%;
+
+#container  {
+  padding-top: 5px;
+  background-color: crimson;
   height: auto;
-  background-color: pink;
-  clear: both;
-  padding: 2.5%;
-  border-radius: 0px;
-}
-#header {
-  background-color: #01F6FE;
-  clear: both;
+  padding-bottom: 5px;
   width: 100%;
   text-align: center;
-  height: auto;
-  -webkit-text-stroke: 2px black;
+}
+
+#header   {
+  background-color: pink;
+  width: 95%;
   font-size: 20pt;
-  color: pink;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
-a:link{
-  color: white;
-}
-a:visited{
-  color: white;
-}
-a:hover{
-  color:red;
-}
-.textarea {
- font-family: Papyrus, fantasy;
- clear: right;
- width: 80%;
- background-color: blue;
-}
-#sidebar {
-  float: left;
-  clear: left;
-  height: 100px;
+
+#textarea  {
+  width: 95%;
   background-color: purple;
-  width: 20%;
+  margin-left: 2.5%;
 }
