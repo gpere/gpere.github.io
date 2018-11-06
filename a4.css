@@ -1,3 +1,15 @@
+/***
+ *    `````````````````````````
+ *    `_______`_______`_______`
+ *    |\`````/|\`````/|\`````/|
+ *    |`+---+`|`+---+`|`+---+`|
+ *    |`|```|`|`|```|`|`|```|`|
+ *    |`|C``|`|`|S``|`|`|S``|`|
+ *    |`+---+`|`+---+`|`+---+`|
+ *    |/_____\|/_____\|/_____\|
+ *    `````````````````````````
+ */
+
 * {
    margin: 0;
    padding: 0;
@@ -9,8 +21,8 @@ div {
 }
 
 img {
-  max-height: 500px;
-  max-width: 500px;
+  max-width: 25vw;
+  max-height: 30vw;
 }
 #container  {
   padding-top: 5px;
@@ -24,7 +36,8 @@ img {
 #header   {
   background-color: pink;
   width: 95%;
-  font-size: 2.55vw;
+  font-size: 2.45vw;
+  /* this means viewport width, which means that the size will change as the width changes */
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-bottom: 20px;
@@ -39,17 +52,19 @@ img {
   padding-top: 2px;
   padding-bottom: 2px;
   font-family: papyrus;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 a {
-color: #000000;/* CSS link color */
+color: #000000;
+/*link color set to black*/
  }
 
 .menuitem {
-  width: 33.3%;
+  width: 20%;
   background-color: #05ffa1;
   border-width: 20px;
   border-radius: 2000px;
   border-color: black;
   font-family: 'Bungee Shade', cursive;
+  /* this font is from google fonts */
 }
